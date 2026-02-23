@@ -27,7 +27,7 @@ export default function Hero() {
       {/* المحتوى (Foreground) - الـ z-index صار 20 عشان يكون فوق الفيديو والـ Overlay */}
       <div className="relative z-20 text-center px-4 mt-10">
         {/* العنوان مع ظل قوي ليبرز */}
-        <h1 className="text-white text-5xl md:text-8xl font-black uppercase tracking-tighter leading-none whitespace-pre-line drop-shadow-[0_5px_15px_rgba(0,0,0,0.8)]">
+        <h1 className="text-white text-5xl md:text-6xl font-black uppercase tracking-tighter leading-none whitespace-pre-line drop-shadow-[0_5px_15px_rgba(0,0,0,0.8)]">
           {t("title")}
         </h1>
 
