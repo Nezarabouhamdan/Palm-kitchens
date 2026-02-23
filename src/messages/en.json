@@ -1,0 +1,24 @@
+{
+  "Navbar": {
+    "concept": "The Concept",
+    "bespoke": "Bespoke Design",
+    "portfolio": "Portfolio",
+    "enquire": "Enquire Now",
+    "changeLang": "AR",
+    "targetLocale": "ar"
+  },
+  "Hero": {
+    "title": "Crafting Heritage In Every Detail",
+    "subtitle": "Bespoke luxury kitchens for elite homes in Dubai & Abu Dhabi.",
+    "cta": "Book Consultation",
+    "viewCollection": "View Collection"
+  },
+  "Concept": {
+    "badge": "Our Philosophy",
+    "title": "Where Art Meets Engineering.",
+    "description": "We don't just build kitchens; we craft architectural masterpieces. Sourcing the finest materials from across the globe, we blend German precision with Italian aesthetics to deliver bespoke culinary spaces for the UAE's most prestigious residences.",
+    "feature1": "Bespoke Design",
+    "feature2": "Master Craftsmanship",
+    "explore": "Discover Our Process"
+  }
+}

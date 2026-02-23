@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  /* تسجيل ألوان رولكس الخاصة بـ Palm Kitchens */
+  --color-rolex-green: #006039;
+  --color-rolex-gold: #a37e2c;
+
+  /* ربط خط Montserrat */
+  --font-montserrat: var(--font-montserrat);
+}
+
+/* إعدادات الخلفية والنصوص الأساسية للموقع */
+:root {
+  --background: #006039; /* جعل الأخضر الملكي هو الخلفية الافتراضية */
+  --foreground: #ffffff;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  /* استدعاء خط Montserrat الذي قمنا بتعريفه */
+  font-family: var(--font-montserrat), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
