@@ -1,18 +1,18 @@
 import createNextIntlPlugin from "next-intl/plugin";
+import type { NextConfig } from "next";
 
-const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
+const withNextIntl = createNextIntlPlugin();
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "i.ibb.co", // رابط اللوغو
+        hostname: "images.unsplash.com",
       },
       {
         protocol: "https",
-        hostname: "images.unsplash.com", // رابط صورة المطبخ المؤقتة
+        hostname: "i.ibb.co",
       },
     ],
   },
