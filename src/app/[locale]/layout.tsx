@@ -7,7 +7,7 @@ import { getMessages } from "next-intl/server";
 const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-montserrat", // هذا الاسم يجب أن يطابق الموجود في ملف CSS
-  weight: ["300", "400", "700", "900"],
+  weight: ["200", "300", "500"],
 });
 
 export default async function RootLayout({

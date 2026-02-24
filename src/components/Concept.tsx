@@ -27,7 +27,7 @@ export default function Concept() {
     // خلفية بيضاء نقية لتعطي تبايناً مذهلاً مع الهيرو الأخضر الغامق
     <section
       ref={sectionRef}
-      className="py-32 bg-white overflow-hidden relative"
+      className="py-32 bg-[#f2f0ef] overflow-hidden relative"
       id="concept"
     >
       <div className="container mx-auto px-6 max-w-7xl">
@@ -49,7 +49,7 @@ export default function Concept() {
             </div>
 
             {/* Title */}
-            <h2 className="text-rolex-green text-4xl md:text-6xl font-black uppercase tracking-tighter leading-[1.1] mb-8">
+            <h2 className="text-rolex-green text-4xl md:text-5xl font-extrabold uppercase tracking-wide leading-tight mb-8">
               {t("title")}
             </h2>
 
@@ -59,13 +59,15 @@ export default function Concept() {
             </p>
 
             {/* Features & Button */}
+            {/* Features & Button */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-8">
               <button className="group relative overflow-hidden bg-rolex-green text-white px-8 py-4 text-xs font-bold uppercase tracking-widest rounded-sm hover:shadow-xl transition-all duration-500">
                 <span className="absolute inset-0 w-full h-full bg-rolex-gold -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out z-0"></span>
                 <span className="relative z-10">{t("explore")}</span>
               </button>
 
-              <div className="flex flex-col gap-2 border-l-2 border-rolex-gold/30 pl-6">
+              {/* استخدمنا border-s و ps عشان يتجاوب مع اتجاه اللغة (RTL/LTR) تلقائياً */}
+              <div className="flex flex-col gap-2 border-s-2 border-rolex-gold/30 ps-6">
                 <span className="text-rolex-green font-bold tracking-wide text-sm uppercase">
                   {t("feature1")}
                 </span>

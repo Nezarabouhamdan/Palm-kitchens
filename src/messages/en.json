@@ -20,5 +20,57 @@
     "feature1": "Bespoke Design",
     "feature2": "Master Craftsmanship",
     "explore": "Discover Our Process"
+  },
+  "Portfolio": {
+    "badge": "Our Masterpieces",
+    "title": "The Bespoke Collection.",
+    "subtitle": "Explore our curated selection of architectural kitchens, designed for the elite.",
+    "viewProject": "View Project",
+    "categories": {
+      "all": "All",
+      "modern": "Modern Minimalist",
+      "classic": "Timeless Classic",
+      "wood": "Natural Wood"
+    },
+    "projects": {
+      "p1": "The Royal Palm",
+      "p2": "Emirates Hills Villa",
+      "p3": "Downtown Penthouse",
+      "p4": "Palm Jumeirah Estate"
+    }
+  },
+  "Footer": {
+    "description": "Crafting architectural bespoke kitchens for the elite residences of the UAE.",
+    "explore": "Explore",
+    "contact": "Contact",
+    "address": "Dubai Design District, UAE",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy"
+  },
+  "ProjectDetails": {
+    "specificationsLabel": "Project Specifications",
+    "galleryLabel": "Project Gallery",
+    "p1": {
+      "title": "The Royal Palm",
+      "location": "Palm Jumeirah, Dubai",
+      "description": "A masterpiece of modern minimalist design. This bespoke kitchen blends natural light with dark walnut finishes, creating a seamless transition between the culinary space and the living area.",
+      "specs": {
+        "style": "Modern Minimalist",
+        "materials": "Premium Walnut & Calacatta Marble",
+        "appliances": "Gaggenau Fully Integrated",
+        "layout": "Open Island Concept"
+      }
+    },
+    "p2": {
+      "title": "Emirates Hills Villa",
+      "location": "Emirates Hills, Dubai",
+      "description": "A timeless classic kitchen designed for grand entertaining. Featuring custom moldings, brass hardware, and state-of-the-art hidden appliances.",
+      "specs": {
+        "style": "Timeless Classic",
+        "materials": "Solid Oak & Quartzite",
+        "appliances": "Sub-Zero & Wolf",
+        "layout": "U-Shape with Double Island"
+      }
+    }
   }
 }

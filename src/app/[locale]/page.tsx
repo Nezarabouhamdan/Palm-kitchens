@@ -1,7 +1,9 @@
 // src/app/page.tsx
 
 import Concept from "@/components/Concept";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import Portfolio from "@/components/Portfolio";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -20,6 +22,8 @@ export default function Home() {
     <main>
       <Hero />
       <Concept />
+      <Portfolio /> {/* عرض القسم هنا */}
+      <Footer /> {/* الختام الملكي */}
       {/* باقي الأقسام مثل الـ Portfolio ستأتي لاحقاً */}
     </main>
   );

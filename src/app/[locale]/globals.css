@@ -7,12 +7,13 @@
 
   /* ربط خط Montserrat */
   --font-montserrat: var(--font-montserrat);
+  --color-white: #f2f0ef;
 }
 
 /* إعدادات الخلفية والنصوص الأساسية للموقع */
 :root {
   --background: #006039; /* جعل الأخضر الملكي هو الخلفية الافتراضية */
-  --foreground: #ffffff;
+  --foreground: #f2f0ef;
 }
 
 body {
