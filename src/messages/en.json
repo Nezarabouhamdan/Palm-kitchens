@@ -30,13 +30,17 @@
       "all": "All",
       "modern": "Modern Minimalist",
       "classic": "Timeless Classic",
-      "wood": "Natural Wood"
+      "wood": "Natural Wood",
+      "royal": "Royal Elegance",
+      "organic": "Organic & Sustainable",
+      "dark": "Dark Elegance",
+      "coastal": "Coastal Elegance"
     },
     "projects": {
-      "p1": "The Royal Palm",
-      "p2": "Emirates Hills Villa",
-      "p3": "Downtown Penthouse",
-      "p4": "Palm Jumeirah Estate"
+      "p1": "Royal Indigo Elegance",
+      "p2": "The Muted Olive Grove",
+      "p3": "The Obsidian Luxury",
+      "p4": "The Gulf Pearl"
     }
   },
   "Footer": {
@@ -50,26 +54,56 @@
   "ProjectDetails": {
     "specificationsLabel": "Project Specifications",
     "galleryLabel": "Project Gallery",
+    "storyLabel": "The Story",
+    "enquireStyle": "Enquire About This Style",
+    "labels": {
+      "style": "Design Style",
+      "materials": "Premium Materials",
+      "accents": "Luxury Accents",
+      "layout": "Layout Configuration"
+    },
     "p1": {
-      "title": "The Royal Palm",
-      "location": "Palm Jumeirah, Dubai",
-      "description": "A masterpiece of modern minimalist design. This bespoke kitchen blends natural light with dark walnut finishes, creating a seamless transition between the culinary space and the living area.",
+      "title": "Royal Indigo Elegance",
+      "location": "Elite Villas, Dubai",
+      "description": "A bold and majestic use of dark indigo tones paired with striking gold accents. This masterpiece is specifically targeted at ultra-luxurious palaces and high-end villas, reflecting absolute prestige.",
       "specs": {
-        "style": "Modern Minimalist",
-        "materials": "Premium Walnut & Calacatta Marble",
-        "appliances": "Gaggenau Fully Integrated",
-        "layout": "Open Island Concept"
+        "style": "Royal Elegance",
+        "materials": "Egger Wood (U599 PM Indigo Blue) & Natural Eucalyptus (H3041 TM12)",
+        "accents": "Gold frames with premium white marble surfaces",
+        "layout": "Grand Island Configuration"
       }
     },
     "p2": {
-      "title": "Emirates Hills Villa",
-      "location": "Emirates Hills, Dubai",
-      "description": "A timeless classic kitchen designed for grand entertaining. Featuring custom moldings, brass hardware, and state-of-the-art hidden appliances.",
+      "title": "The Muted Olive Grove",
+      "location": "Al Barari, Dubai",
+      "description": "A biophilic masterpiece utilizing muted olive green, a defining trend of 2025. This design perfectly blends organic luxury with nature, making it the ideal choice for sustainable villas.",
       "specs": {
-        "style": "Timeless Classic",
-        "materials": "Solid Oak & Quartzite",
-        "appliances": "Sub-Zero & Wolf",
-        "layout": "U-Shape with Double Island"
+        "style": "Biophilic & Sustainable Luxury",
+        "materials": "Egger Forest Green (U640 ST9) paired with Grey Brown Whiteriver Oak (H1313 ST10)",
+        "accents": "Indoor hanging plants, natural stone flooring, and warm ambient lighting",
+        "layout": "Open-plan with a raw natural wood dining extension"
+      }
+    },
+    "p3": {
+      "title": "The Obsidian Luxury",
+      "location": "Luxury Penthouses, Downtown Dubai",
+      "description": "An ultra-matte royal black aesthetic reflecting a bold, contemporary lifestyle. Targeted at high-end penthouses in the heart of Dubai, this design flawlessly integrates cinematic lighting with panoramic skyline views.",
+      "specs": {
+        "style": "Dark Elegance & Contemporary",
+        "materials": "Egger PerfectSense Feelwood in Matte Black (U999 TM28)",
+        "accents": "Black marble surfaces complemented by warm, concealed LED lighting",
+        "layout": "Open-plan design featuring a massive marble island facing the cityscape"
+      }
+    },
+    "p4": {
+      "title": "The Gulf Pearl",
+      "location": "Jebel Ali Palm, Dubai",
+      "description": "A breathtaking coastal design utilizing pearl white and light grey tones to brilliantly reflect natural light. This masterpiece is the ultimate choice for luxury beachfront villas.",
+      "specs": {
+        "style": "Coastal Elegance",
+        "materials": "Egger Wood in Alpine White (W1100 PM) and Light Grey (U708 PM)",
+        "accents": "Pristine 'Statuario' white marble surfaces",
+        "layout": "Panoramic open-plan enhancing the sense of space and seaside connection"
       }
     }
   }

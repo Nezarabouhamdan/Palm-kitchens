@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import Footer from "@/components/Footer";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default async function RootLayout({
         <NextIntlClientProvider messages={messages}>
           <Navbar />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

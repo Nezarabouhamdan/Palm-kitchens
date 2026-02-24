@@ -23,7 +23,6 @@ export default function Home() {
       <Hero />
       <Concept />
       <Portfolio /> {/* عرض القسم هنا */}
-      <Footer /> {/* الختام الملكي */}
       {/* باقي الأقسام مثل الـ Portfolio ستأتي لاحقاً */}
     </main>
   );
