@@ -106,5 +106,85 @@
         "layout": "Panoramic open-plan enhancing the sense of space and seaside connection"
       }
     }
+  },
+  "Bespoke": {
+    "badge": "The Journey",
+    "title": "Where Masterpieces Are Born.",
+    "subtitle": "We engineer your kitchen to be a reflection of your personality and lifestyle, from the initial sketch to the final polish.",
+    "steps": {
+      "step1": {
+        "title": "01. Vision & Consultation",
+        "desc": "A private consultation to understand your lifestyle, culinary needs, and aesthetic aspirations. Together, we explore materials and palettes that speak to your taste."
+      },
+      "step2": {
+        "title": "02. Architectural Design (3D)",
+        "desc": "Our architects translate your vision into hyper-realistic 3D renders. We refine the layouts until we achieve the perfect harmony of form and function."
+      },
+      "step3": {
+        "title": "03. Master Craftsmanship",
+        "desc": "Manufacturing begins using the finest globally sourced materials. We blend German engineering precision with Italian aesthetic sensibility for lasting quality."
+      },
+      "step4": {
+        "title": "04. Flawless Installation",
+        "desc": "Our specialized team installs your bespoke kitchen with meticulous attention to detail, delivering a culinary space that exceeds expectations."
+      }
+    },
+    "cta": {
+      "title": "Ready to begin your journey?",
+      "desc": "Let's turn your vision into a tangible reality.",
+      "button": "Book Your Private Consultation"
+    }
+  },
+  "ConceptPage": {
+    "badge": "Our Philosophy",
+    "title": "Where Art Meets Engineering.",
+    "subtitle": "We don't just build kitchens; we craft architectural masterpieces that reflect your lifestyle, designed for the UAE's most prestigious residences.",
+    "storyTitle": "The Story Behind The Craft",
+    "storyP1": "Palm Kitchens was founded on a single, uncompromising principle: the pursuit of absolute perfection. We believe that the kitchen is no longer just a culinary space; it is the beating heart of a luxury home.",
+    "storyP2": "We travel the globe to source the rarest and finest materials, from meticulously treated natural woods to pristine Italian marble. We fuse these elements with the brilliance of German engineering to ensure generational durability, all while maintaining breathtaking Italian design lines.",
+    "valuesTitle": "Our Core Pillars",
+    "values": {
+      "v1": {
+        "title": "German Precision",
+        "desc": "Silent movement mechanisms, concealed hinges, and integrated technology working in perfect harmony."
+      },
+      "v2": {
+        "title": "Italian Aesthetics",
+        "desc": "Designs reflecting timeless elegance, perfect balance between mass and void, and enchanting finishes."
+      },
+      "v3": {
+        "title": "Absolute Exclusivity",
+        "desc": "No two kitchens are alike. Every design is a unique fingerprint, tailor-made to reflect its owner's personality."
+      }
+    },
+    "ctaTitle": "Discover how we bring this philosophy to life",
+    "ctaButton": "Explore Our Portfolio"
+  },
+  "ContactPage": {
+    "badge": "Contact Us",
+    "title": "Let's Design Your Masterpiece.",
+    "subtitle": "Our team of architects and interior designers is ready to turn your vision into reality. Book your private consultation now.",
+    "contactInfo": "Contact Information",
+    "labels": {
+      "location": "Location",
+      "phone": "Phone",
+      "email": "Email"
+    },
+    "location": "Dubai Design District, Dubai, UAE",
+    "phone": "+971 58 566 0800",
+    "email": "info@palmkitchens.ae",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "service": "Service Required",
+      "message": "Additional Details (Optional)",
+      "submit": "Submit Request",
+      "options": {
+        "new": "New Villa Kitchen Design",
+        "renovation": "Kitchen Renovation",
+        "consultation": "Design Consultation"
+      }
+    }
   }
 }
