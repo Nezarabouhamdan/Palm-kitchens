@@ -64,7 +64,7 @@ export default function ConceptPage() {
             <div className="absolute top-8 -left-8 w-full h-full border border-rolex-gold/30 z-0 hidden md:block"></div>
             <div className="relative z-10 w-full h-full overflow-hidden rounded-sm shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1600566753086-00f18efc2291?q=80&w=2070"
+                src="https://i.ibb.co/RTf346d6/Gemini-Generated-Image-bu8tgnbu8tgnbu8t.png"
                 alt="Craftsmanship"
                 fill
                 unoptimized

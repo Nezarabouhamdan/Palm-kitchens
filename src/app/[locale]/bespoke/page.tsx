@@ -28,14 +28,24 @@ export default function BespokePage() {
       </div>
 
       {/* ==================== 2. صورة عريضة تعطي فخامة للصفحة ==================== */}
-      <div className="w-full h-[50vh] md:h-[70vh] relative mb-24 md:mb-32 animate-fade-in-up delay-200">
-        <Image
-          src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070"
-          alt="Bespoke Kitchen Design Process"
-          fill
-          unoptimized
-          className="object-cover"
-        />
+      {/* ==================== 2. صورة عريضة تعطي فخامة للصفحة ==================== */}
+      <div className="w-full aspect-[16/9] md:aspect-[21/9] max-h-[600px] relative mb-24 md:mb-32 animate-fade-in-up delay-200 overflow-hidden">
+        {/* ==================== 2. صورة عريضة تعطي فخامة للصفحة ==================== */}
+        <div className="w-full h-[60vh] md:h-[90vh] relative mb-24 md:mb-32 animate-fade-in-up delay-200 overflow-hidden rounded-sm shadow-2xl">
+          <Image
+            src="https://i.ibb.co/vxV8pn8F/Gemini-Generated-Image-3ylfqi3ylfqi3ylf.png"
+            alt="Bespoke Kitchen Design Process"
+            fill
+            unoptimized
+            // استخدمنا object-cover مع object-center عشان تحافظ على دقتها وتتوسط الشاشة
+            className="object-cover object-center"
+          />
+          {/* فلتر خفيف جداً لدمج الصورة مع ألوان الموقع */}
+          <div className="absolute inset-0 bg-[#002817]/5 pointer-events-none"></div>
+        </div>
+        {/* فلتر خفيف فوق الصورة عشان تندمج مع ألوان الموقع */}
+        <div className="absolute inset-0 bg-[#002817]/10 pointer-events-none"></div>
+
         <div className="absolute inset-0 bg-rolex-green/20"></div>
       </div>
 

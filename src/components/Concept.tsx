@@ -93,7 +93,7 @@ export default function Concept() {
             <div className="relative w-full h-full z-10 shadow-2xl overflow-hidden">
               <Image
                 // استخدمت صورة لمطبخ رخامي فخم جداً كـ Placeholder
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop"
+                src="https://i.ibb.co/cK12hMQr/Gemini-Generated-Image-m4teg0m4teg0m4te.png"
                 alt="Luxury Palm Kitchens Concept"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-[2000ms]"
