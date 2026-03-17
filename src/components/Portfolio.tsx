@@ -43,7 +43,7 @@ export default function Portfolio() {
 
         {/* ==================== شبكة الصور المربوطة بالداتا ==================== */}
         <div className="grid grid-cols-1 md:grid-cols-3 auto-rows-[300px] gap-4 md:gap-6">
-          {projectsData.map((project, index) => {
+          {projectsData.slice(0, 4).map((project, index) => {
             // توزيع المساحات (Span) برمجياً حسب ترتيب الصورة للحفاظ على الشبكة الفنية
             let spanClass = "md:col-span-1 md:row-span-1";
             if (index === 0) spanClass = "md:col-span-2 md:row-span-2"; // أول صورة كبيرة

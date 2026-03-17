@@ -11,7 +11,7 @@ export const projectsData: Project[] = [
   {
     id: "p1",
     slug: "royal-indigo-elegance",
-    categoryId: "royal", // ضفنا تصنيف جديد اسمه royal
+    categoryId: "royal",
     coverImage:
       "https://i.ibb.co/Q77s0dyP/Gemini-Generated-Image-eazp63eazp63eazp.png",
     gallery: [
@@ -25,7 +25,7 @@ export const projectsData: Project[] = [
   {
     id: "p2",
     slug: "the-muted-olive-grove",
-    categoryId: "organic", // ضفنا تصنيف جديد للتصاميم المستدامة والطبيعية
+    categoryId: "organic",
     coverImage:
       "https://i.ibb.co/YFfxW3J8/Gemini-Generated-Image-ws9rh0ws9rh0ws9r.png",
     gallery: [
@@ -38,7 +38,7 @@ export const projectsData: Project[] = [
   {
     id: "p3",
     slug: "the-obsidian-luxury",
-    categoryId: "dark", // تصنيف جديد للألوان الداكنة
+    categoryId: "dark",
     coverImage:
       "https://i.ibb.co/2Y0YXhD7/Gemini-Generated-Image-fv2yacfv2yacfv2y.png",
     gallery: [
@@ -51,13 +51,41 @@ export const projectsData: Project[] = [
   {
     id: "p4",
     slug: "the-gulf-pearl",
-    categoryId: "coastal", // تصنيف جديد للفلل الشاطئية
+    categoryId: "coastal",
     coverImage:
       "https://i.ibb.co/ZpWxv055/Gemini-Generated-Image-q4b3wbq4b3wbq4b3.png",
     gallery: [
       "https://i.ibb.co/jkxgWkKk/Gemini-Generated-Image-l5f070l5f070l5f0.png",
       "https://i.ibb.co/ZpWxv055/Gemini-Generated-Image-q4b3wbq4b3wbq4b3.png",
       "https://i.ibb.co/zMW6Z7P/Gemini-Generated-Image-1nivtw1nivtw1niv.png",
+    ],
+    year: 2026,
+  },
+  {
+    id: "p5",
+    slug: "anthracite-classical-grandeur",
+    categoryId: "classic",
+    coverImage:
+      "https://i.ibb.co/gLm3Jtgd/Gemini-Generated-Image-wyuh1wyuh1wyuh1w.png",
+    gallery: [
+      "https://i.ibb.co/DDwBTQvX/Gemini-Generated-Image-szj3llszj3llszj3.png",
+      "https://i.ibb.co/rR3hggRX/Gemini-Generated-Image-r4t7ztr4t7ztr4t7.png",
+      "https://i.ibb.co/gLm3Jtgd/Gemini-Generated-Image-wyuh1wyuh1wyuh1w.png",
+      "https://i.ibb.co/j9n1ybC3/Gemini-Generated-Image-9uj9ch9uj9ch9uj9.png",
+    ],
+    year: 2026,
+  },
+  // ====== المشروع السادس الجديد ======
+  {
+    id: "p6",
+    slug: "minimalist-walnut-serenity",
+    categoryId: "modern", // تصنيف المينيمال المودرن
+    coverImage:
+      "https://i.ibb.co/rfmZqGh8/Gemini-Generated-Image-c5xp43c5xp43c5xp.png",
+    gallery: [
+      "https://i.ibb.co/rfmZqGh8/Gemini-Generated-Image-c5xp43c5xp43c5xp.png",
+      "https://i.ibb.co/RTB0hThT/Gemini-Generated-Image-fe6iv1fe6iv1fe6i.png",
+      "https://i.ibb.co/s9CMQgzp/Gemini-Generated-Image-osxed9osxed9osxe.png",
     ],
     year: 2026,
   },

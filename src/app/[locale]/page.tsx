@@ -1,6 +1,7 @@
 // src/app/page.tsx
 
 import Concept from "@/components/Concept";
+import EstimatorPreview from "@/components/EstimatorPreview";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Portfolio from "@/components/Portfolio";
@@ -22,8 +23,8 @@ export default function Home() {
     <main>
       <Hero />
       <Concept />
-      <Portfolio /> {/* عرض القسم هنا */}
-      {/* باقي الأقسام مثل الـ Portfolio ستأتي لاحقاً */}
+      <Portfolio />
+      <EstimatorPreview />
     </main>
   );
 }

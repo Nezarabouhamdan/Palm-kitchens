@@ -76,6 +76,12 @@ export default function Navbar() {
               >
                 {t("portfolio")}
               </Link>
+              <Link
+                href="/estimator"
+                className="hover:text-rolex-gold transition-colors duration-300"
+              >
+                {t("estimator")}
+              </Link>
             </div>
           </div>
 
@@ -156,6 +162,13 @@ export default function Navbar() {
             className="hover:text-rolex-gold transition-colors duration-500"
           >
             {t("portfolio")}
+          </Link>
+          <Link
+            href="/estimator"
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="hover:text-rolex-gold transition-colors duration-500"
+          >
+            {t("estimator")}
           </Link>
 
           <div className="w-16 h-[1px] bg-rolex-gold/30 my-2"></div>

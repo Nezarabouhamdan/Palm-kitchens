@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 
 export default function Hero() {
   const t = useTranslations("Hero");
@@ -37,17 +38,23 @@ export default function Hero() {
         {/* الأزرار: مسافات متجاوبة وعرض كامل على الموبايل w-full sm:w-auto */}
         <div className="mt-12 flex flex-col sm:flex-row gap-4 md:gap-6 justify-center items-center w-full max-w-md sm:max-w-none mx-auto">
           {/* الزر الذهبي: padding متجاوب px-8 py-4 للموبايل و px-12 py-6 للديسكتوب */}
-          <button className="w-full sm:w-auto group relative overflow-hidden bg-rolex-gold text-white px-8 py-4 md:px-12 md:py-6 text-sm md:text-base font-bold uppercase tracking-widest shadow-2xl hover:scale-105 transition-all duration-500 rounded-sm">
+          <Link
+            href="/estimator"
+            className="w-full sm:w-auto group relative overflow-hidden bg-rolex-gold text-white px-8 py-4 md:px-12 md:py-6 text-sm md:text-base font-bold uppercase tracking-widest shadow-2xl hover:scale-105 transition-all duration-500 rounded-sm text-center"
+          >
             <span className="absolute inset-0 w-full h-full bg-white/30 -translate-x-full group-hover:animate-[shine_1.5s_ease-in-out] skew-x-12"></span>
             <span className="relative">{t("cta")}</span>
-          </button>
+          </Link>
 
           {/* الزر الزجاجي */}
-          <button className="w-full sm:w-auto group px-8 py-4 md:px-12 md:py-6 text-sm md:text-base font-bold uppercase tracking-widest text-white border border-white/40 bg-white/10 backdrop-blur-md hover:bg-white/20 hover:border-rolex-gold transition-all duration-500 rounded-sm">
+          <Link
+            href="/portfolio"
+            className="w-full sm:w-auto group px-8 py-4 md:px-12 md:py-6 text-sm md:text-base font-bold uppercase tracking-widest text-white border border-white/40 bg-white/10 backdrop-blur-md hover:bg-white/20 hover:border-rolex-gold transition-all duration-500 rounded-sm text-center"
+          >
             <span className="group-hover:text-rolex-gold transition-colors">
               {t("viewCollection")}
             </span>
-          </button>
+          </Link>
         </div>
       </div>
     </section>

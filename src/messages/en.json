@@ -3,6 +3,7 @@
     "concept": "The Concept",
     "bespoke": "Bespoke Design",
     "portfolio": "Portfolio",
+    "estimator": "Cost Estimator",
     "enquire": "Enquire Now",
     "changeLang": "AR",
     "targetLocale": "ar"
@@ -10,7 +11,7 @@
   "Hero": {
     "title": "Crafting Heritage In Every Detail",
     "subtitle": "Bespoke luxury kitchens for elite homes in Dubai & Abu Dhabi.",
-    "cta": "Book Consultation",
+    "cta": "Estimate Your Kitchen",
     "viewCollection": "View Collection"
   },
   "Concept": {
@@ -40,7 +41,9 @@
       "p1": "Royal Indigo Elegance",
       "p2": "The Muted Olive Grove",
       "p3": "The Obsidian Luxury",
-      "p4": "The Gulf Pearl"
+      "p4": "The Gulf Pearl",
+      "p5": "Anthracite Classical Grandeur",
+      "p6": "Minimalist Walnut Serenity"
     }
   },
   "Footer": {
@@ -104,6 +107,28 @@
         "materials": "Egger Wood in Alpine White (W1100 PM) and Light Grey (U708 PM)",
         "accents": "Pristine 'Statuario' white marble surfaces",
         "layout": "Panoramic open-plan enhancing the sense of space and seaside connection"
+      }
+    },
+    "p5": {
+      "title": "Anthracite Classical Grandeur",
+      "location": "Luxury Villas, Mirdif, Dubai",
+      "description": "A Neoclassical masterpiece that brilliantly bridges traditional luxury with modern aesthetics. Designed for grand villas, the anthracite tones and antique brass details evoke an atmosphere of profound majesty and timeless prestige.",
+      "specs": {
+        "style": "Neoclassical Elegance",
+        "materials": "Egger Wood (H1186 TM37 Dark Brown Garonne Oak) with slim-frame doors",
+        "accents": "Antique Brass handles and metallic Mashrabiya details",
+        "layout": "Grand classical layout featuring a central island and a luxurious crystal chandelier"
+      }
+    },
+    "p6": {
+      "title": "Minimalist Walnut Serenity",
+      "location": "High-End Apartments & Lofts, Dubai",
+      "description": "A minimalist approach utilizing classic natural walnut wood, reflecting pure sophistication and tranquility. This design seamlessly blends the warmth of natural wood with sleek modern lines to create a luxurious sanctuary above the city.",
+      "specs": {
+        "style": "Modern Minimalist",
+        "materials": "Egger Natural Walnut (H3734 ST9) combined with Graphite Grey (U961 ST9)",
+        "accents": "Black Arabescato marble surfaces with concealed LED lighting",
+        "layout": "Linear configuration with an expansive marble island facing the city skyline"
       }
     }
   },
