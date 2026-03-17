@@ -75,7 +75,6 @@ export const projectsData: Project[] = [
     ],
     year: 2026,
   },
-  // ====== المشروع السادس الجديد ======
   {
     id: "p6",
     slug: "minimalist-walnut-serenity",

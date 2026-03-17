@@ -212,48 +212,29 @@
       }
     }
   },
-  "Estimator": {
+  "EstimatorPreview": {
     "badge": "Cost Estimator",
-    "title": "Design Your Investment",
-    "subtitle": "Get an instant preliminary estimate tailored to your architectural vision.",
-    "step1": {
-      "title": "Select Kitchen Layout",
-      "linear": "Linear (One Wall)",
-      "lShape": "L-Shape",
-      "uShape": "U-Shape",
-      "island": "With Island"
-    },
-    "step2": {
-      "title": "Kitchen Size (Linear Meters)",
-      "desc": "Estimate the total length of your cabinets.",
-      "meters": "Linear Meters"
-    },
-    "step3": {
-      "title": "Cabinet Finishes",
-      "basic": "Premium Matte",
-      "premium": "High-Gloss Acrylic",
-      "luxury": "Natural Wood Veneer"
-    },
-    "step4": {
-      "title": "Countertop Material",
-      "quartz": "Engineered Quartz",
-      "dekton": "Dekton / Ultra-Compact",
-      "marble": "Natural Calacatta Marble"
-    },
-    "step5": {
-      "title": "Your Details",
-      "desc": "Enter your details to view your estimated cost instantly.",
-      "name": "Full Name",
-      "phone": "Phone Number",
-      "viewResult": "View Estimate"
-    },
-    "result": {
-      "title": "Estimated Investment",
-      "desc": "This is a preliminary estimate based on your selections. Final costs will depend on specific hardware, integrated appliances, and final 3D design.",
-      "book": "Book Formal Consultation",
-      "currency": "AED"
-    },
-    "next": "Next Step",
-    "prev": "Back"
+    "title1": "Estimate Your",
+    "title2": "Investment.",
+    "description": "Enter your kitchen profile and get a premium estimate range in seconds so you can start planning with confidence.",
+    "cta": "Start Estimator",
+    "steps": {
+      "step1": {
+        "title": "Smart Layout",
+        "desc": "Select your layout type and scope for a personalized quote."
+      },
+      "step2": {
+        "title": "Premium Finishes",
+        "desc": "Choose finishes and materials to refine your luxury estimate band."
+      },
+      "step3": {
+        "title": "Size & Scope",
+        "desc": "Set your kitchen size to get accurate range for cabinets, counters, and fittings."
+      },
+      "step4": {
+        "title": "Instant Range",
+        "desc": "Get immediate cost guidance with transparent pricing assumptions."
+      }
+    }
   }
 }
