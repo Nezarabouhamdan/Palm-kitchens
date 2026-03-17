@@ -75,6 +75,7 @@ export const projectsData: Project[] = [
     ],
     year: 2026,
   },
+  // ====== المشروع السادس الجديد ======
   {
     id: "p6",
     slug: "minimalist-walnut-serenity",
@@ -85,6 +86,18 @@ export const projectsData: Project[] = [
       "https://i.ibb.co/rfmZqGh8/Gemini-Generated-Image-c5xp43c5xp43c5xp.png",
       "https://i.ibb.co/RTB0hThT/Gemini-Generated-Image-fe6iv1fe6iv1fe6i.png",
       "https://i.ibb.co/s9CMQgzp/Gemini-Generated-Image-osxed9osxed9osxe.png",
+    ],
+    year: 2026,
+  },
+  {
+    id: "p7",
+    slug: "champagne-elegance",
+    categoryId: "royal",
+    coverImage: "https://i.ibb.co/jZvCcwcL/Screenshot-2026-03-17-142127.png",
+    gallery: [
+      "https://i.ibb.co/jZvCcwcL/Screenshot-2026-03-17-142127.png",
+      "https://i.ibb.co/KcSLCgNL/Screenshot-2026-03-17-142113.png",
+      "https://i.ibb.co/nMGnnsPw/Screenshot-2026-03-17-142055.png",
     ],
     year: 2026,
   },

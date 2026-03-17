@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Link } from "@/i18n/routing";
@@ -8,6 +9,18 @@ import { projectsData } from "@/data/projects";
 // تأكد إن هذي الجملة موجودة (export default function)
 export default function PortfolioIndexPage() {
   const t = useTranslations("Portfolio");
+  const [page, setPage] = useState(1);
+  const pageSize = 6;
+  const totalPages = Math.max(1, Math.ceil(projectsData.length / pageSize));
+  const pagedProjects = projectsData.slice(
+    (page - 1) * pageSize,
+    page * pageSize,
+  );
+
+  const goToPage = (next: number) => {
+    if (next < 1 || next > totalPages) return;
+    setPage(next);
+  };
 
   return (
     <main className="bg-[#f2f0ef] min-h-screen pt-56 pb-24">
@@ -31,7 +44,7 @@ export default function PortfolioIndexPage() {
 
         {/* ==================== 2. شبكة الكروت بالصور ==================== */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
-          {projectsData.map((project, index) => (
+          {pagedProjects.map((project, index) => (
             <Link
               href={`/portfolio/${project.slug}`}
               key={project.id}
@@ -70,6 +83,42 @@ export default function PortfolioIndexPage() {
             </Link>
           ))}
         </div>
+
+        {totalPages > 1 ? (
+          <div className="mt-12 flex flex-wrap justify-center items-center gap-2">
+            <button
+              onClick={() => goToPage(page - 1)}
+              className="px-4 py-2 text-xs font-bold uppercase tracking-widest rounded-sm border border-rolex-green/30 bg-white text-rolex-green hover:bg-rolex-green hover:text-white transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+              disabled={page === 1}
+            >
+              {t("prev")}
+            </button>
+
+            {Array.from({ length: totalPages }, (_, idx) => idx + 1).map(
+              (pageNumber) => (
+                <button
+                  key={pageNumber}
+                  onClick={() => goToPage(pageNumber)}
+                  className={`px-4 py-2 text-xs font-bold uppercase tracking-widest rounded-sm transition-all duration-300 ${
+                    pageNumber === page
+                      ? "bg-rolex-green text-white border border-rolex-green"
+                      : "bg-white text-rolex-green border border-rolex-green/30 hover:bg-rolex-green/10"
+                  }`}
+                >
+                  {pageNumber}
+                </button>
+              ),
+            )}
+
+            <button
+              onClick={() => goToPage(page + 1)}
+              className="px-4 py-2 text-xs font-bold uppercase tracking-widest rounded-sm border border-rolex-green/30 bg-white text-rolex-green hover:bg-rolex-green hover:text-white transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+              disabled={page === totalPages}
+            >
+              {t("next")}
+            </button>
+          </div>
+        ) : null}
       </div>
     </main>
   );

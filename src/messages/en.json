@@ -27,6 +27,8 @@
     "title": "The Bespoke Collection.",
     "subtitle": "Explore our curated selection of architectural kitchens, designed for the elite.",
     "viewProject": "View Project",
+    "prev": "Previous",
+    "next": "Next",
     "categories": {
       "all": "All",
       "modern": "Modern Minimalist",
@@ -43,7 +45,8 @@
       "p3": "The Obsidian Luxury",
       "p4": "The Gulf Pearl",
       "p5": "Anthracite Classical Grandeur",
-      "p6": "Minimalist Walnut Serenity"
+      "p6": "Minimalist Walnut Serenity",
+      "p7": "Champagne Elegance"
     }
   },
   "Footer": {
@@ -129,6 +132,17 @@
         "materials": "Egger Natural Walnut (H3734 ST9) combined with Graphite Grey (U961 ST9)",
         "accents": "Black Arabescato marble surfaces with concealed LED lighting",
         "layout": "Linear configuration with an expansive marble island facing the city skyline"
+      }
+    },
+    "p7": {
+      "title": "Champagne Elegance",
+      "location": "Dubai Hills, Dubai",
+      "description": "A soft royal masterpiece embodying modern luxury with warm tones. This kitchen reflects the Dubai elite lifestyle, where soft warm metallic champagne tones merge seamlessly with bronze details to create an aura of profound majesty and timeless elegance.",
+      "specs": {
+        "style": "Royal Elegance",
+        "materials": "Egger Apricot Beige matte finish with soft texture (U232 ST9)",
+        "accents": "Soft warm metallic Bronze details, luxury Dubai lifestyle",
+        "layout": "Panoramic open-plan with massive central island, highly detailed textures"
       }
     }
   },
