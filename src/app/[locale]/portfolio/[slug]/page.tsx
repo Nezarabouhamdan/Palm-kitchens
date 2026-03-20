@@ -62,6 +62,7 @@ export default function ProjectPage({
           alt={t("title")}
           fill
           priority
+          sizes="100vw"
           className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#002817]/90 via-[#002817]/40 to-transparent"></div>
@@ -164,6 +165,8 @@ export default function ProjectPage({
                   src={img}
                   alt={`${t("title")} gallery image ${index + 1}`}
                   fill
+                  loading="lazy"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover transition-transform duration-[1500ms] group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-rolex-gold/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
@@ -195,7 +198,9 @@ export default function ProjectPage({
               src={selectedImage}
               alt="Gallery zoom"
               fill
+              sizes="100vw"
               className="object-contain drop-shadow-2xl"
+              // The user preferred to keep the quality at 100
               quality={100}
             />
           </div>

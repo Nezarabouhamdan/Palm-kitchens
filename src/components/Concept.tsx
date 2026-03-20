@@ -96,6 +96,8 @@ export default function Concept() {
                 src="https://i.ibb.co/cK12hMQr/Gemini-Generated-Image-m4teg0m4teg0m4te.png"
                 alt="Luxury Palm Kitchens Concept"
                 fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                loading="lazy"
                 className="object-cover hover:scale-105 transition-transform duration-[2000ms]"
               />
               {/* Overlay خفيف لدمج الصورة مع ألوان الموقع */}

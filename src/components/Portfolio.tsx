@@ -49,6 +49,10 @@ export default function Portfolio() {
             if (index === 0) spanClass = "md:col-span-2 md:row-span-2"; // أول صورة كبيرة
             if (index === 3) spanClass = "md:col-span-3 md:row-span-1"; // رابع صورة بانورامية
 
+            let sizes = "(max-width: 768px) 100vw, 33vw";
+            if (index === 0) sizes = "(max-width: 768px) 100vw, 66vw";
+            if (index === 3) sizes = "100vw";
+
             return (
               // حولنا الـ div إلى Link عشان الزبون يقدر يضغط ويفوت على تفاصيل المشروع
               <Link
@@ -60,6 +64,8 @@ export default function Portfolio() {
                   src={project.coverImage}
                   alt={t(`projects.${project.id}`)}
                   fill
+                  loading="lazy"
+                  sizes={sizes}
                   className="object-cover transition-transform duration-[2000ms] group-hover:scale-110"
                 />
 

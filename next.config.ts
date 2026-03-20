@@ -5,7 +5,6 @@ const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
   images: {
-    unoptimized: true, // 👈 هذا السطر بيلغي الـ Timeout وبيخلي المتصفح يستنى براحته
     remotePatterns: [
       {
         protocol: "https",
